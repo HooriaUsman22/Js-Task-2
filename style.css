@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f8;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 50px 15px;
+}
+.container {
+    background-color: white;
+
+    width: 100%;
+    max-width: 500px;
+
+    padding: 25px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px #00000015;
+}
+h1 {
+    text-align: center;
+    color: #292b45;
+}
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+input {
+    flex: 1;
+    min-width: 0;
+
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+button {
+    border: none;
+    padding: 10px 14px;
+
+    border-radius: 6px;
+    cursor: pointer;
+
+    color: white;
+}
+#addBtn {
+    background-color: #5146d8;
+}
+#resetBtn {
+    background-color: #e04444;
+
+    width: 100%;
+    margin-top: 15px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    padding: 12px;
+    margin-top: 10px;
+
+    background-color: #f1f1f8;
+    border-radius: 6px;
+}
+.task-text {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+.actions {
+    display: flex;
+    gap: 5px;
+}
+.edit {
+    background-color: #e6a52e;
+}
+.delete {
+    background-color: #e04444;
+}
+#message {
+    text-align: center;
+    color: #777;
+}
